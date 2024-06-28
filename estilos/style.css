@@ -17,7 +17,10 @@ body, html {
     height: 100vh;
 }
 body {
-    background-image: linear-gradient(to top, #06DB56, #243329 );
+    background-image: url(../imagens/papeis-de-parede-de-plantas-verdes-que-farao-voce-sorrir_836919-2055.avif); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 main{
@@ -28,7 +31,7 @@ main{
 
 
 section#perfil{
-    background-color: white;
+    background-image: linear-gradient(to top, #06DB56, #243329);
     position: relative;
     top: 50%;
     left: 50%;
@@ -37,6 +40,7 @@ section#perfil{
     width: 350px;
     height: 600px;
     border-radius: 20px;
+    
 }
 
 section#perfil > div#indice{
@@ -49,6 +53,11 @@ section#perfil > div#indice{
 section#perfil > div#indice > h3{
     text-align: center;
     padding: 10px;
+    margin: 15px;
+    background-color: #2433298e;
+    border: 2px solid rgba(0, 0, 0, 0.342);
+    border-radius: 50px;
+    color: rgb(187, 182, 182);
 }
 
 div#indice > ul{
@@ -63,16 +72,18 @@ div#indice > ul.itens > li{
 div#indice > ul.itens > li > a{
     text-decoration: none;
     padding: 10px;
-    background-color: rgba(155, 152, 152, 0.658);
+    background-color: rgba(209, 206, 206, 0.137);
     color: white;
     border: 1px solid rgba(209, 206, 206, 0.363);
     border-radius: 10px;
     font-size: 0.8em;
 
 }
-ul.itens > li > a:hover{
+div#indice > ul.itens > li > a:hover{
     background-color: gray;
 }
+
+
 
 
 
