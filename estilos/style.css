@@ -64,12 +64,30 @@ section#perfil > div#indice > a{
 }
 
 section#perfil > div#indice > a:hover{
-    background-color: rgba(255, 255, 255, 0.137);
+    background-color: #78A75A;
 }
+
+/*MENU HAMBURGUER*/
+section#perfil > div#indice > i#burguer{
+    color: #78A75A;
+    display: inline-flex;
+    text-align: right;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding-left: 250px;
+    cursor: pointer;
+}
+
+section#perfil > div#indice > i#burguer:hover{
+    background-color: #78A75A;
+    color: rgb(48, 46, 46);
+}
+
 
 /* menu */
 div#indice > ul{
     list-style-type: none;
+    
 }
 
 div#indice > ul.itens > li{
