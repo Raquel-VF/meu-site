@@ -13,6 +13,7 @@
 body, html {
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 body {
     background-image: url(../imagens/fundo-verde-escuro.jpg);
@@ -132,12 +133,12 @@ div#hardskill {
     height: 30%;
     margin: 20px;
     padding: 15px;
-    background-color: #73887a4b;
+    background-color: rgba(115, 136, 122, 0.294);
     color: rgba(255, 255, 255, 0.616);
     border: 1px solid rgba(209, 206, 206, 0.534);
     border-radius: 30px;
     font-size: 0.8em;
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(1.5px);
     
 }
 
@@ -150,7 +151,8 @@ div#hardskill > div#fotohardskill > img{
     width: 50px;
     height: 50px;
     margin: 5px;
-    border-radius: 50%;   
+    border-radius: 50%;
+    filter: blur(0);   
 
 }
 
@@ -175,12 +177,14 @@ div#hardskill > h2{
     font-size: 0.9em;
     text-align: center;
     color: rgb(135, 180, 10);
+    filter: blur(0);
 }
 
 div#hardskill > p{
     padding: 5px;
     text-align: justify;
     font-size: 0.9em;
+    filter: blur(0);
 
 }
 
