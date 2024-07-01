@@ -32,7 +32,7 @@ main{
 
 
 section#perfil{
-    background-image: linear-gradient(to top, #06DB56, #243329);
+    background-image: linear-gradient(to top, #031407, #283618);
     position: relative;
     top: 50%;
     left: 50%;
@@ -44,7 +44,7 @@ section#perfil{
     
 }
 
-section#perfil > div#indice{
+section#perfil > {
     display:inline-block;
     width: 100%;
     height: 17%;
@@ -52,7 +52,7 @@ section#perfil > div#indice{
 }
 
 /* RAKA */
-section#perfil > div#indice > a{
+section#perfil > a{
     padding: 10px;
     margin: 10px;
     margin-bottom: 30px;
@@ -61,14 +61,15 @@ section#perfil > div#indice > a{
     border: 2px solid rgba(0, 0, 0, 0.342);
     border-radius: 50px;
     color: rgb(187, 182, 182);
+    
 }
 
-section#perfil > div#indice > a:hover{
+section#perfil > a:hover{
     background-color: #78A75A;
 }
 
 /*MENU HAMBURGUER*/
-section#perfil > div#indice > i#burguer{
+section#perfil > i#burguer{
     color: #78A75A;
     display: inline-flex;
     text-align: right;
@@ -78,48 +79,56 @@ section#perfil > div#indice > i#burguer{
     cursor: pointer;
 }
 
-section#perfil > div#indice > i#burguer:hover{
-    background-color: #78A75A;
+section#perfil > i#burguer:hover{
+    background-color: #78a75a73;
     color: rgb(48, 46, 46);
 }
 
 
 /* menu */
-div#indice > ul{
-    list-style-type: none;
+menu > ul{
+    display: block;
     
 }
 
-div#indice > ul.itens > li{
-    display: inline;
+menu > ul > li{
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    color: #78A75A;
+    background-color: rgba(48, 46, 46, 0.336);
+    border: 1px solid #78A75A;
+    border-radius: 20px;
+    text-decoration: none;
+
+    list-style-type: none;
 }
 
-div#indice > ul.itens > li > a{
+menu > ul > li > a{
     text-decoration: none;
-    padding: 10px;
-    background-color: rgba(209, 206, 206, 0.137);
+    padding: 8px;
     color: white;
-    border: 1px solid rgba(209, 206, 206, 0.363);
-    border-radius: 90px;
+    text-shadow: 1px 1px 2px rgba(12, 12, 12, 0.5);
     font-size: 0.8em;
 
 }
-div#indice > ul.itens > li > a:hover{
-    background-color:rgba(255, 255, 255, 0.329);
+menu > ul > li > a:hover{
+    color:#06DB56;
+
 }
 
 /*Raquel Vargas*/
 div#apresentacao > h1{
-    padding: 20px;
-    padding-bottom: 5px;
     text-align: center;
-    color: white;
+    color:#06db58;
+    font-size: 1.8em;
+    text-shadow: 4px -1px 2px rgb(2 29 1 / 99%);
     
 }
 
 div#apresentacao > p{
     padding: 3px;
-    margin: 10px;
+    margin: 10px 50px;
     color: white;
     text-align: center;
     font-size: 0.8em;
@@ -128,12 +137,14 @@ div#apresentacao > p{
 
 /* HARD SKILL*/
 div#hardskill {
-    margin: 15px;
-    padding: 10px;
-    background-color: rgba(209, 206, 206, 0.137);
-    color: white;
-    border: 1px solid rgba(209, 206, 206, 0.363);
-    border-radius: 10px;
+    width: 80%;
+    height: 34%;
+    margin: 11px;
+    padding: 15px;
+    background-color: #24332973;
+    color: rgba(255, 255, 255, 0.616);
+    border: 2px solid rgba(209, 206, 206, 0.534);
+    border-radius: 30px;
     font-size: 0.8em;
 }
 
@@ -169,7 +180,7 @@ div#hardskill > h2{
     padding: 0px;
     margin-top: -25px;
     margin-bottom: 20px;
-    margin-left: -20px;
+    margin-left: 35px;
     font-size: 0.9em;
     text-align: center;
     color: rgba(255, 255, 255, 0.63);

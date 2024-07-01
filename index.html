@@ -12,16 +12,16 @@
 <body>
     <main>
         <section id="perfil">
-            <div id="indice">
-                <a> <img src="imagens/r.png" alt="iconeraka"> </a>
-                    <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
-                    <ul class="itens">
-                        <li><a href="#">Certificados</a></li>
-                        <li><a href="#">Experiências</a></li>
-                        <li><a href="#">Estudos</a></li>
-                        <li><a href="#">Contatos</a></li>
-                    </ul>
-            </div>
+            <a><img src="imagens/r.png" alt="iconeraka"></a>
+            <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+            <menu id="itens">    
+                <ul>
+                     <li><a href="#">Certificados</a></li>
+                     <li><a href="#">Experiências</a></li>
+                     <li><a href="#">Estudos</a></li>
+                     <li><a href="#">Contatos</a></li>
+                 </ul>
+            </menu>
             <div id="apresentacao">
                 <h1>Raquel Vargas</h1>
                 <p>Representante comercial e estudante de Analise e Desenvolvimento de Sistema</p>
@@ -45,7 +45,13 @@
         </section>
     </main>
     <script>
-        function clickMenu(){}
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else{
+                itens.style.display = 'block'
+            }
+        }
     </script>
 
 
