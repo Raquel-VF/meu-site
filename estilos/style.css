@@ -36,8 +36,8 @@ section#perfil{
     left: 50%;
     transform: translate(-50%, -50%);
 
-    width: 311px;
-    height: 627px;
+    width: 350px;
+    height: 750px;
     border-radius: 20px;
     
 }
@@ -61,7 +61,7 @@ section#perfil > a:hover{
 /*MENU HAMBURGUER*/
 section#perfil > i#burguer{
     color: #c6e9b0;
-    display: inline-flex;
+    display: block;
     margin: 5px;
     padding: 5px;
     background-color: #78a75a73;
@@ -74,6 +74,7 @@ section#perfil > i#burguer{
 section#perfil > i#burguer:hover{
     background-color: #78a75a73;
     color: rgb(48, 46, 46);
+    
 }
 
 
@@ -130,7 +131,7 @@ div#apresentacao > p{
 /* HARD SKILL*/
 div#hardskill {
     width: 90%;
-    height: 30%;
+    height: 25%;
     margin: 20px;
     padding: 15px;
     background-color: rgba(115, 136, 122, 0.294);
@@ -151,9 +152,7 @@ div#hardskill > div#fotohardskill > img{
     width: 50px;
     height: 50px;
     margin: 5px;
-    border-radius: 50%;
-    filter: blur(0);   
-
+    border-radius: 50%;  
 }
 
 div#hardskill > div#fotohardskill > img:hover{
@@ -195,10 +194,10 @@ div#hardskill > p{
 /* SOFT SKILL*/
 div#softskill {
     width: 90%;
-    height: 30%;
+    height: 25%;
     margin: 20px;
     padding: 15px;
-    background-color: #73887a4b;
+    background-color: rgba(115, 136, 122, 0.294);
     color: rgba(255, 255, 255, 0.616);
     border: 1px solid rgba(209, 206, 206, 0.534);
     border-radius: 30px;
