@@ -23,28 +23,19 @@ body {
 }
 
 main{
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-}
-
-
-section#perfil{
     background-image: url(../imagens/papeis-de-parede-de-plantas-verdes-que-farao-voce-sorrir_836919-2055.avif);
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 90vw;
+    height: 98vh;
+    margin: auto;
+    padding: 30px;
 
-    width: 350px;
-    height: 750px;
     border-radius: 20px;
-    
 }
 
 /* RAKA */
 section#perfil > a{
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     display: inline-flex;
     background-color: #2433298e;
@@ -58,15 +49,19 @@ section#perfil > a:hover{
     background-color: #78A75A;
 }
 
+
 /*MENU HAMBURGUER*/
+menu {
+    display: none;
+}
 section#perfil > i#burguer{
     color: #c6e9b0;
     display: block;
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
+    padding-left: 90%;
     background-color: #78a75a73;
     border-radius: 5px;
-    padding-left: 270px;
     cursor: pointer;
     
 }
@@ -99,10 +94,10 @@ menu > ul > li{
 
 menu > ul > li > a{
     text-decoration: none;
-    padding: 8px;
+    padding: 10px;
     color: white;
     text-shadow: 1px 1px 2px rgba(12, 12, 12, 0.5);
-    font-size: 0.8em;
+    font-size: 1.2em;
 
 }
 menu > ul > li > a:hover{
@@ -114,8 +109,10 @@ menu > ul > li > a:hover{
 div#apresentacao > h1{
     text-align: center;
     color:rgb(135, 180, 10);
-    font-size: 1.8em;
+    font-size: 3em;
     text-shadow: 4px -1px 2px rgb(2 29 1 / 99%);
+
+    padding-top: 20px;
     
 }
 
@@ -124,7 +121,7 @@ div#apresentacao > p{
     margin: 10px 50px;
     color: white;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1.3em;
 }
 
 
@@ -138,42 +135,44 @@ div#hardskill {
     color: rgba(255, 255, 255, 0.616);
     border: 1px solid rgba(209, 206, 206, 0.534);
     border-radius: 30px;
-    font-size: 0.8em;
+    font-size: 1em;
+    text-shadow: 1px 1px 1px black;
     backdrop-filter: blur(1.5px);
-    
 }
 
 div#hardskill > div#fotohardskill{
     display: flex;
-    
 }
 
 div#hardskill > div#fotohardskill > img{
-    width: 50px;
-    height: 50px;
+    width: 15%;
+    height: 15%;
     margin: 5px;
     border-radius: 50%;  
+    filter: blur(0);
 }
 
 div#hardskill > div#fotohardskill > img:hover{
     transform: scale(1.5);
     transition: 1.3s;
+    filter: blur(0);
 }
 
 
 div#hardskill > div#fotohardskill > h1{
     margin-top: 10px;
-    margin-left: 30px;
-    text-align: right;
+    margin-left: 50px;
+    text-align: center;
     color: white;
     filter: blur(0);
 }
 
 div#hardskill > h2{
     padding: 0px;
-    margin-top: -25px;
+    margin-top: -48px;
     margin-bottom: 20px;
-    font-size: 0.9em;
+    margin-right: 25%;
+    font-size: 1.2em;
     text-align: center;
     color: rgb(135, 180, 10);
     filter: blur(0);
@@ -201,7 +200,8 @@ div#softskill {
     color: rgba(255, 255, 255, 0.616);
     border: 1px solid rgba(209, 206, 206, 0.534);
     border-radius: 30px;
-    font-size: 0.8em;
+    font-size: 1em;
+    text-shadow: 1px 1px 1px black;
     backdrop-filter: blur(1.5px);
 }
 
@@ -211,38 +211,44 @@ div#softskill > div#fotosoftskill{
 }
 
 div#softskill > div#fotosoftskill > img{
-    width: 50px;
-    height: 50px;
+    width: 15%;
+    height: 15%;
     margin: 5px;
     border-radius: 50%;
+    filter: blur(0);
 }
 
 div#softskill > div#fotosoftskill > img:hover{
     transform: scale(1.5);
     transition: 1.3s;
+    filter: blur(0);
 }
 
 
 div#softskill > div#fotosoftskill > h1{
     margin-top: 10px;
-    margin-left: 30px;
-    text-align: right;
+    margin-left: 50px;
+    text-align: center;
     color: white;
+    filter: blur(0);
 }
 
 div#softskill > h2{
     padding: 0px;
-    margin-top: -25px;
+    margin-top: -45px;
     margin-bottom: 20px;
-    font-size: 0.9em;
+    margin-right: 80px;
+    font-size: 1.2em;
     text-align: center;
     color: rgb(135, 180, 10);
+    filter: blur(0);
 }
 
 div#softskill > p{
     padding: 5px;
     text-align: justify;
     font-size: 0.9em;
+    filter: blur(0);
 
 }
 
