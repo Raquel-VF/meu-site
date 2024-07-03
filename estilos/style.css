@@ -164,7 +164,7 @@ div#hardskill > div#fotohardskill > h1{
 
 div#hardskill > h2{
     padding-bottom: 5px;
-    margin-top: -20px;
+    margin-top: -15px;
     font-size: 1.2em;
     text-align: center;
     color: rgb(135, 180, 10);
@@ -228,7 +228,7 @@ div#softskill > div#fotosoftskill > h1{
 
 div#softskill > h2{
     padding-bottom: 5px;
-    margin-top: -15px;
+    margin-top: -10px;
     font-size: 1.2em;
     text-align: center;
     color: rgb(135, 180, 10);
