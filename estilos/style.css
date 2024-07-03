@@ -25,18 +25,14 @@ body {
 main{
     background-image: url(../imagens/papeis-de-parede-de-plantas-verdes-que-farao-voce-sorrir_836919-2055.avif);
     position: relative;
-    width: 90vw;
-    height: 98vh;
     margin: auto;
     padding: 30px;
-
-    border-radius: 20px;
 }
 
 /* RAKA */
 section#perfil > a{
-    padding: 20px;
-    margin: 10px;
+    padding: 10px;
+    margin: 5px;
     display: inline-flex;
     background-color: #2433298e;
     border: 2px solid rgba(0, 0, 0, 0.342);
@@ -57,9 +53,8 @@ menu {
 section#perfil > i#burguer{
     color: #c6e9b0;
     display: block;
-    margin: 5px;
-    padding: 10px;
-    padding-left: 90%;
+    text-align: right;
+    padding: 5px;
     background-color: #78a75a73;
     border-radius: 5px;
     cursor: pointer;
@@ -108,29 +103,29 @@ menu > ul > li > a:hover{
 /*Raquel Vargas*/
 div#apresentacao > h1{
     text-align: center;
+    padding-top: 5px;
     color:rgb(135, 180, 10);
-    font-size: 3em;
+    font-size: 2.5em;
     text-shadow: 4px -1px 2px rgb(2 29 1 / 99%);
 
-    padding-top: 20px;
     
 }
 
 div#apresentacao > p{
-    padding: 3px;
-    margin: 10px 50px;
+    padding: 5px;
+    margin: 5px;
     color: white;
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 
 /* HARD SKILL*/
 div#hardskill {
     width: 90%;
-    height: 25%;
-    margin: 20px;
-    padding: 15px;
+    height: 10%;
+    margin: 10px;
+    padding: 10px;
     background-color: rgba(115, 136, 122, 0.294);
     color: rgba(255, 255, 255, 0.616);
     border: 1px solid rgba(209, 206, 206, 0.534);
@@ -168,10 +163,8 @@ div#hardskill > div#fotohardskill > h1{
 }
 
 div#hardskill > h2{
-    padding: 0px;
-    margin-top: -48px;
-    margin-bottom: 20px;
-    margin-right: 25%;
+    padding-bottom: 5px;
+    margin-top: -20px;
     font-size: 1.2em;
     text-align: center;
     color: rgb(135, 180, 10);
@@ -193,7 +186,7 @@ div#hardskill > p{
 /* SOFT SKILL*/
 div#softskill {
     width: 90%;
-    height: 25%;
+    height: 15%;
     margin: 20px;
     padding: 15px;
     background-color: rgba(115, 136, 122, 0.294);
@@ -214,7 +207,7 @@ div#softskill > div#fotosoftskill > img{
     width: 15%;
     height: 15%;
     margin: 5px;
-    border-radius: 50%;
+    border-radius: 50%;  
     filter: blur(0);
 }
 
@@ -234,10 +227,8 @@ div#softskill > div#fotosoftskill > h1{
 }
 
 div#softskill > h2{
-    padding: 0px;
-    margin-top: -45px;
-    margin-bottom: 20px;
-    margin-right: 80px;
+    padding-bottom: 5px;
+    margin-top: -20px;
     font-size: 1.2em;
     text-align: center;
     color: rgb(135, 180, 10);
