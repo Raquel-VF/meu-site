@@ -12,15 +12,12 @@
     box-sizing: border-box;
 }
 
-html, body{
-    display: flexbox;
-}
-
 body {
     background-image: url(../imagens/fundo-verde-escuro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding: 0 25px;
 
 }
 
@@ -126,14 +123,15 @@ div#apresentacao > p{
 
 /* CONTAINER DAS SKILLS*/
 section#skills {
-    display: flex;
+    display: flexbox;
     flex-flow: row wrap;
-    flex-basis: 250px;
-    flex-shrink: 1;
-    flex-grow: 1;
-    
+       
 }
 
+div.item{
+    width: 200px;
+    height: 200px;
+}
 
 
 /* HARD SKILL*/
@@ -172,24 +170,26 @@ div#hardskill > div#fotohardskill > h1{
     text-align: center;
     color: white;
     filter: blur(0);
+    font-size: 1em;
 }
 
 div#hardskill > h2{
     padding-bottom: 5px;
     margin-top: 5px;
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: center;
     color: rgb(135, 180, 10);
     filter: blur(0);
 }
 
 div#hardskill > img#plantinhas{
-    height: 80px;
+    height: 40px;
+    margin-top: -20px;
 }
 div#hardskill > p{
     padding: 5px;
     text-align: justify;
-    font-size: 0.9em;
+    font-size: 0.6em;
     filter: blur(0);
 
 }
@@ -237,24 +237,26 @@ div#softskill > div#fotosoftskill > h1{
     text-align: center;
     color: white;
     filter: blur(0);
+    font-size: 1em;
 }
 
 div#softskill > h2{
     padding-bottom: 5px;
     margin-top: 5px;
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: center;
     color: rgb(135, 180, 10);
     filter: blur(0);
 }
 div#softskill > img#plantinhas{
-    height: 80px;
+    height: 40px;
+    margin-top: -20px;
 }
 
 div#softskill > p{
     padding: 5px;
     text-align: justify;
-    font-size: 0.9em;
+    font-size: 0.6em;
     filter: blur(0);
 
 }
