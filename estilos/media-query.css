@@ -3,3 +3,96 @@
 @media screen and (min-width: 768px) and (max-width:1200px) {
     
 }
+
+body{
+    background-image: url(../imagens/fundo-verde-escuro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main{
+    background-image: url(../imagens/papeis-de-parede-de-plantas-verdes-que-farao-voce-sorrir_836919-2055.avif);
+    position: relative;
+    width: 90%;
+    height: 96%;
+}
+
+section#perfil > a{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 60px;    
+}
+
+
+/*MENU HAMBURGUER*/
+menu {
+    display: none;
+}
+section#perfil > i#burguer{
+    padding: 20px;
+}
+
+
+menu > ul > li > a{
+    font-size: 1.5em;
+}
+
+/*Raquel Vargas*/
+div#apresentacao > h1{
+    font-size: 5em;
+}
+
+div#apresentacao > p{
+    font-size: 2em;
+}
+
+/* HARD SKILL*/
+div#hardskill {
+    width: 40%;
+    font-size: 1em;
+}
+
+div#hardskill > div#fotohardskill > img{
+    width: 20%;
+    height: 20%;
+}
+
+div#hardskill > div#fotohardskill > h1{
+    margin-top: -50px;
+    font-size: 2em;
+}
+
+div#hardskill > h2{
+    font-size: 1.5em;
+}
+
+div#hardskill > p{
+    font-size: 1.3em;
+}
+
+
+/* SOFT SKILL*/
+div#softskill {
+    width: 40%;
+    font-size: 1em;
+    
+}
+
+div#softskill > div#fotosoftskill > img{
+    width: 20%;
+    height: 20%;
+}
+
+div#softskill > div#fotosoftskill > h1{
+    margin-top: -50px;
+    font-size: 2em;
+}
+
+div#softskill > h2{
+    font-size: 1.5em;
+}
+
+div#softskill > p{
+    font-size: 1.3em;
+}
