@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-@media screen and (min-width:400px) and (max-width:768px){
+/*@media screen and (min-width:400px) and (max-width:768px){}*/
     
-}
+
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
@@ -12,16 +12,16 @@
     box-sizing: border-box;
 }
 
-body, html {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
+html, body{
+    display: flexbox;
 }
+
 body {
     background-image: url(../imagens/fundo-verde-escuro.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
 }
 
 main{
@@ -124,11 +124,20 @@ div#apresentacao > p{
     font-size: 1em;
 }
 
+/* CONTAINER DAS SKILLS*/
+section#skills {
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 250px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    
+}
+
+
 
 /* HARD SKILL*/
 div#hardskill {
-    width: 90%;
-    height: 15%;
     margin: 20px;
     padding: 15px;
     background-color: rgba(115, 136, 122, 0.294);
@@ -140,9 +149,7 @@ div#hardskill {
     backdrop-filter: blur(1.5px);
 }
 
-div#hardskill > div#fotohardskill{
-    display: block;
-}
+
 
 div#hardskill > div#fotohardskill > img{
     width: 15%;
@@ -176,6 +183,9 @@ div#hardskill > h2{
     filter: blur(0);
 }
 
+div#hardskill > img#plantinhas{
+    height: 80px;
+}
 div#hardskill > p{
     padding: 5px;
     text-align: justify;
@@ -190,8 +200,6 @@ div#hardskill > p{
 
 /* SOFT SKILL*/
 div#softskill {
-    width: 90%;
-    height: 15%;
     margin: 20px;
     padding: 15px;
     background-color: rgba(115, 136, 122, 0.294);
@@ -204,7 +212,7 @@ div#softskill {
 }
 
 div#softskill > div#fotosoftskill{
-    display: block;
+    display: flexbox;
     
 }
 
@@ -238,6 +246,9 @@ div#softskill > h2{
     text-align: center;
     color: rgb(135, 180, 10);
     filter: blur(0);
+}
+div#softskill > img#plantinhas{
+    height: 80px;
 }
 
 div#softskill > p{

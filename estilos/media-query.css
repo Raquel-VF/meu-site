@@ -1,4 +1,4 @@
-@charset "UTF-8 ";
+/*@charset "UTF-8 ";
 
 @media screen and (min-width: 768px) and (max-width:1200px) {
     
@@ -25,8 +25,8 @@ section#perfil > a{
 }
 
 
-/*MENU HAMBURGUER*/
-menu {
+/*MENU HAMBURGUER*/ 
+/*menu {
     display: none;
 }
 section#perfil > i#burguer{
@@ -39,7 +39,7 @@ menu > ul > li > a{
 }
 
 /*Raquel Vargas*/
-div#apresentacao > h1{
+/*div#apresentacao > h1{
     font-size: 5em;
 }
 
@@ -48,7 +48,7 @@ div#apresentacao > p{
 }
 
 /* HARD SKILL*/
-div#hardskill {
+/*div#hardskill {
     width: 40%;
     font-size: 1em;
 }
@@ -73,7 +73,7 @@ div#hardskill > p{
 
 
 /* SOFT SKILL*/
-div#softskill {
+/*div#softskill {
     width: 40%;
     font-size: 1em;
     
@@ -95,4 +95,4 @@ div#softskill > h2{
 
 div#softskill > p{
     font-size: 1.3em;
-}
+}*/
