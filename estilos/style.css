@@ -18,6 +18,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 0 25px;
+    transition: background-image 1s ease;
 
 }
 
@@ -123,7 +124,7 @@ div#apresentacao > p{
 
 /* CONTAINER DAS SKILLS*/
 section#skills {
-    display: flexbox;
+    display: grid;
     flex-flow: row wrap;
        
 }
@@ -193,9 +194,6 @@ div#hardskill > p{
     filter: blur(0);
 
 }
-
-
-
 
 
 /* SOFT SKILL*/

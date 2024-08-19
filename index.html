@@ -8,12 +8,13 @@
     <link rel="shortcut icon" href="imagens/r.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
+    
 </head>
 
 <body>
     <main>
         <section id="perfil">
-            <a><img src="imagens/r.png" alt="iconeraka"></a>
+            <a><buttom><img src="imagens/r.png" alt="iconeraka" id="tema" onclick="trocarTema()"></buttom></a>
             <i id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
             <menu id="itens">    
                 <ul>
@@ -50,15 +51,7 @@
             </div>
         </section>
     </main>
-    <script>
-        function clickMenu(){
-            if (itens.style.display == 'block'){
-                itens.style.display = 'none'
-            } else{
-                itens.style.display = 'block'
-            }
-        }
-    </script>
+    <script src="script.js"></script>
     <footer>Site criado por <a href="https://github.com/Raquel-VF" target="_blank">Raquel Vargas</a></footer>
 </body>
 </html>
