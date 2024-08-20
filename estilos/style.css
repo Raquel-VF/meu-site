@@ -22,6 +22,7 @@ body {
 
 }
 
+
 main{
     background-image: url(../imagens/papeis-de-parede-de-plantas-verdes-que-farao-voce-sorrir_836919-2055.avif);
     position: relative;
@@ -30,6 +31,9 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+.outono-mode{
+    background-image: url(../imagens/outono.jpg);
 }
 
 /* RAKA */

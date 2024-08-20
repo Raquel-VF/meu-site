@@ -6,7 +6,7 @@ function clickMenu(){
     }
 }
 
-let tt = document.getElementById('tema')
-function trocaTema() {
-    console.alert('Clicou no botão!')
+function trocarTema(){
+    let element = document.getElementById('capa');
+    element.classList.toggle("outono-mode");
 }
