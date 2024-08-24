@@ -1,9 +1,16 @@
 @charset "UTF-8";
 
-/*@media screen and (min-width:400px) and (max-width:768px){}*/
+@media screen and (max-width:768px){}
     
 
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root{
+    --text-primary: white;
+    --bg-primary: url(../imagens/papeis-de-parede-de-plantas-verdes-que-farao-voce-sorrir_836919-2055.avif);
+}
+
 
 *{
     font-family: "Roboto", sans-serif;
@@ -35,6 +42,7 @@ main{
 .outono-mode{
     background-image: url(../imagens/outono.jpg);
 }
+
 
 /* RAKA */
 section#perfil > a{

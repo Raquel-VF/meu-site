@@ -9,4 +9,5 @@ function clickMenu(){
 function trocarTema(){
     let element = document.getElementById('capa');
     element.classList.toggle("outono-mode");
+    
 }
