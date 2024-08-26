@@ -136,9 +136,10 @@ div#apresentacao > p{
 
 /* CONTAINER DAS SKILLS*/
 section#skills {
-    display: grid;
-    flex-flow: row wrap;
-       
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    
 }
 
 div.item{
